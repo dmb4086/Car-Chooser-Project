@@ -1,0 +1,230 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.show {
+    display:
+}
+
+
+.fordBG {
+    background: #0f2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+
+}
+
+.lamboBG {
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+
+}
+
+.FerrariBG {
+    background: #8E0E00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+
+}
+
+.FerrariBG h1{
+     background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    margin: 20px 0;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+   
+
+    
+}
+
+
+.FerrariBG select {
+    url("https://www.encompasscorporation.com/wp-content/uploads/2015/09/white-arrow-down.png") right 10px center no-repeat;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0 20px;
+    text-overflow: ellipsis;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #ED213A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.FerrariBG select:hover {
+    background: #ED213A url("https://www.encompasscorporation.com/wp-content/uploads/2015/09/white-arrow-down.png") right 10px center no-repeat;
+    background-size: 15px;
+
+}
+
+
+.body1 {
+    background: linear-gradient(to right, #3e0f77, #2e0f77);
+    font-family: 'PT Sans', sans-serif;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    width: 400px;
+}
+
+ h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 25px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.select-wrap {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+select {
+    background: #200948 url("https://www.encompasscorporation.com/wp-content/uploads/2015/09/white-arrow-down.png") right 10px center no-repeat;
+    background-size: 15px;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0 20px;
+    text-overflow: ellipsis;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select:hover {
+    background: #270a5a url("https://www.encompasscorporation.com/wp-content/uploads/2015/09/white-arrow-down.png") right 10px center no-repeat;
+    background-size: 15px;
+}
+
+select:active {
+    background: #150531 url("https://www.encompasscorporation.com/wp-content/uploads/2015/09/white-arrow-down.png") right 10px center no-repeat;
+    background-size: 15px;
+}
+
+select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #fff;
+}
+
+.select-list {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    z-index: 10;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.select-list__item {
+    padding: 10px 20px;
+    margin: 0;
+    background: #200948;
+    cursor: pointer;
+}
+
+.select-list__item:hover {
+    background: #270a5a;
+}
+
+.select-list__item:active {
+    background: #150531;
+}
+
+#button {
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    color: #fff;
+    background: #200948;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#button:hover {
+    background: #270a5a;
+}
+
+#button:active {
+    background: #150531;
+}
+
+.hide {
+    display: none;
+}
+
+.active {
+    background: #150531 url("https://www.encompasscorporation.com/wp-content/uploads/2015/09/white-arrow-down.png") right 10px center no-repeat !important;
+    background-size: 15px !important;
+}
+
+.order {
+    background: #200948;
+    border-radius: 5px;
+}
+
+.order__slct1,
+.order__select-2 {
+    padding: 10px 20px;
+}
