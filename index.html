@@ -19,19 +19,30 @@
      <div class="container">
     <form>
       <h1 id="mainBG">Choose Your Car</h1>
+        
       <div class="select-wrap">
+          
         <select name="slct1" id="slct1" onchange="populate(this.id, 'slct2');"  >
+            
           <option value="" disabled selected>Choose Car Make</option>
           <option value="ferrari">Ferrari</option>
           <option value="lambo">Lamborghini</option>
           <option value="ford">Ford</option>
+            
         </select>
           </div>
         
          <div class="select-wrap hide" id="list2">
-        <select name="slct2" id="slct2" onchange="populate(this.id,slct3)"></select>
+             
+        <select name="slct2" id="slct2" onchange="populate(this.id, 'slct3')"></select>
+             
           </div>
         
+        <div class="select-wrap hide" id="list3">
+             
+        <select name="slct3" id="slct3" onchange=""></select>
+             
+          </div>
 
          </form>
          
